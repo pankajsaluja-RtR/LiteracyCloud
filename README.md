@@ -118,7 +118,7 @@
 
   <!-- Main Content -->
   <div class="container">
-    <h1>📖 Scan & Read</h1>
+    <h1>📖 Scan & Read 3</h1>
     <p>कहानी पढ़ने के लिए क्लिक करें!</p>
     <button onclick="openRandomURL()">Click Here</button>
     <footer>Powered by Literacy Cloud</footer>
