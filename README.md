@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -74,7 +75,7 @@
     /* Infinite loop upwards */
     @keyframes floatUp {
       0% { transform: translateY(0); }
-      100% { transform: translateY(-50%); }
+      100% { transform: translateY(-100%); }
     }
   </style>
 </head>
@@ -84,17 +85,24 @@
   <div class="books-left">
     <div class="column">
       <!-- repeat set twice for seamless loop -->
-      <img src="https://djuc8g2q9bu2u.cloudfront.net/stories/7919/cover_thumbnail/size1/Fri_Jul_25_2025_12_27_29_GMT_0530_%28India_Standard_Time%29.webp?1753426650">
-      <img src="https://djuc8g2q9bu2u.cloudfront.net/stories/7863/cover_thumbnail/size1/page-0-1751522275.webp?1751522280">
-      <img src="https://djuc8g2q9bu2u.cloudfront.net/stories/7856/cover_thumbnail/size1/Wed_Jul_02_2025_16_37_15_GMT_0530_%28India_Standard_Time%29.webp?1751454435">
-      <img src="https://djuc8g2q9bu2u.cloudfront.net/stories/7853/cover_thumbnail/size1/Wed_Jul_02_2025_14_59_56_GMT_0530_%28India_Standard_Time%29.webp?1751448596">
-      <img src="https://djuc8g2q9bu2u.cloudfront.net/stories/7658/cover_thumbnail/size1/Sun_Apr_06_2025_14_14_14_GMT_0530_%28India_Standard_Time%29.webp?1743929054">
-      <!-- duplicate again -->
-      <img src="https://djuc8g2q9bu2u.cloudfront.net/stories/7919/cover_thumbnail/size1/Fri_Jul_25_2025_12_27_29_GMT_0530_%28India_Standard_Time%29.webp?1753426650">
-      <img src="https://djuc8g2q9bu2u.cloudfront.net/stories/7863/cover_thumbnail/size1/page-0-1751522275.webp?1751522280">
-      <img src="https://djuc8g2q9bu2u.cloudfront.net/stories/7856/cover_thumbnail/size1/Wed_Jul_02_2025_16_37_15_GMT_0530_%28India_Standard_Time%29.webp?1751454435">
-      <img src="https://djuc8g2q9bu2u.cloudfront.net/stories/7853/cover_thumbnail/size1/Wed_Jul_02_2025_14_59_56_GMT_0530_%28India_Standard_Time%29.webp?1751448596">
-      <img src="https://djuc8g2q9bu2u.cloudfront.net/stories/7658/cover_thumbnail/size1/Sun_Apr_06_2025_14_14_14_GMT_0530_%28India_Standard_Time%29.webp?1743929054">
+	  
+	  <img src="https://djuc8g2q9bu2u.cloudfront.net/stories/7160/cover_thumbnail/size1/page-0-1752223773.webp?1752223778" alt="Image 1">
+<img src="https://djuc8g2q9bu2u.cloudfront.net/stories/7161/cover_thumbnail/size1/page-0-1752222783.webp?1752222787" alt="Image 2">
+<img src="https://djuc8g2q9bu2u.cloudfront.net/stories/7162/cover_thumbnail/size1/Fri_Jul_12_2024_17_30_41_GMT_0530_%28India_Standard_Time%29.webp?1720785641" alt="Image 3">
+<img src="https://djuc8g2q9bu2u.cloudfront.net/stories/6492/cover_thumbnail/size1/Tue_Aug_01_2023_12_22_14_GMT_0530_%28India_Standard_Time%29.webp?1712126174" alt="Image 4">
+<img src="https://djuc8g2q9bu2u.cloudfront.net/stories/6493/cover_thumbnail/size1/IN-LLP-14-0006_PeepalTree-HIN.webp?1712126152" alt="Image 5">
+<img src="https://djuc8g2q9bu2u.cloudfront.net/stories/6462/cover_thumbnail/size1/Thu_Jul_18_2024_17_26_09_GMT_0530_%28India_Standard_Time%29.webp?1721303769" alt="Image 6">
+<img src="https://djuc8g2q9bu2u.cloudfront.net/stories/6465/cover_thumbnail/size1/Mon_Jul_15_2024_13_41_46_GMT_0530_%28India_Standard_Time%29.webp?1721031106" alt="Image 7">
+<img src="https://djuc8g2q9bu2u.cloudfront.net/stories/6422/cover_thumbnail/size1/Fri_Jul_14_2023_10_31_23_GMT_0530_%28India_Standard_Time%29.webp?1712127031" alt="Image 8">
+<img src="https://djuc8g2q9bu2u.cloudfront.net/stories/6423/cover_thumbnail/size1/Fri_Jul_14_2023_10_40_59_GMT_0530_%28India_Standard_Time%29.webp?1712126993" alt="Image 9">
+<img src="https://djuc8g2q9bu2u.cloudfront.net/stories/6309/cover_thumbnail/size1/Thu_Jul_18_2024_15_42_08_GMT_0530_%28India_Standard_Time%29.webp?1721297528" alt="Image 10">
+<img src="https://djuc8g2q9bu2u.cloudfront.net/stories/6276/cover_thumbnail/size1/page-0-1686300737.webp?1712127348" alt="Image 11">
+<img src="https://djuc8g2q9bu2u.cloudfront.net/stories/7919/cover_thumbnail/size1/Fri_Jul_25_2025_12_27_29_GMT_0530_%28India_Standard_Time%29.webp?1753426650" alt="Image 12">
+
+	  
+	  
+	  
+	 
     </div>
   </div>
 
@@ -102,23 +110,32 @@
   <div class="books-right">
     <div class="column">
       <!-- same covers as left (or you can mix other set) -->
-      <img src="https://djuc8g2q9bu2u.cloudfront.net/stories/7919/cover_thumbnail/size1/Fri_Jul_25_2025_12_27_29_GMT_0530_%28India_Standard_Time%29.webp?1753426650">
-      <img src="https://djuc8g2q9bu2u.cloudfront.net/stories/7863/cover_thumbnail/size1/page-0-1751522275.webp?1751522280">
-      <img src="https://djuc8g2q9bu2u.cloudfront.net/stories/7856/cover_thumbnail/size1/Wed_Jul_02_2025_16_37_15_GMT_0530_%28India_Standard_Time%29.webp?1751454435">
-      <img src="https://djuc8g2q9bu2u.cloudfront.net/stories/7853/cover_thumbnail/size1/Wed_Jul_02_2025_14_59_56_GMT_0530_%28India_Standard_Time%29.webp?1751448596">
-      <img src="https://djuc8g2q9bu2u.cloudfront.net/stories/7658/cover_thumbnail/size1/Sun_Apr_06_2025_14_14_14_GMT_0530_%28India_Standard_Time%29.webp?1743929054">
-      <!-- duplicate again -->
-      <img src="https://djuc8g2q9bu2u.cloudfront.net/stories/7919/cover_thumbnail/size1/Fri_Jul_25_2025_12_27_29_GMT_0530_%28India_Standard_Time%29.webp?1753426650">
-      <img src="https://djuc8g2q9bu2u.cloudfront.net/stories/7863/cover_thumbnail/size1/page-0-1751522275.webp?1751522280">
-      <img src="https://djuc8g2q9bu2u.cloudfront.net/stories/7856/cover_thumbnail/size1/Wed_Jul_02_2025_16_37_15_GMT_0530_%28India_Standard_Time%29.webp?1751454435">
-      <img src="https://djuc8g2q9bu2u.cloudfront.net/stories/7853/cover_thumbnail/size1/Wed_Jul_02_2025_14_59_56_GMT_0530_%28India_Standard_Time%29.webp?1751448596">
-      <img src="https://djuc8g2q9bu2u.cloudfront.net/stories/7658/cover_thumbnail/size1/Sun_Apr_06_2025_14_14_14_GMT_0530_%28India_Standard_Time%29.webp?1743929054">
+     
+	  
+	  <!-- Floating Books New -->
+	  
+	 <img src="https://djuc8g2q9bu2u.cloudfront.net/stories/7919/cover_thumbnail/size1/Fri_Jul_25_2025_12_27_29_GMT_0530_%28India_Standard_Time%29.webp?1753426650" alt="Image 1">
+<img src="https://djuc8g2q9bu2u.cloudfront.net/stories/7863/cover_thumbnail/size1/page-0-1751522275.webp?1751522280" alt="Image 2">
+<img src="https://djuc8g2q9bu2u.cloudfront.net/stories/7856/cover_thumbnail/size1/Wed_Jul_02_2025_16_37_15_GMT_0530_%28India_Standard_Time%29.webp?1751454435" alt="Image 3">
+<img src="https://djuc8g2q9bu2u.cloudfront.net/stories/7853/cover_thumbnail/size1/Wed_Jul_02_2025_14_59_56_GMT_0530_%28India_Standard_Time%29.webp?1751448596" alt="Image 4">
+<img src="https://djuc8g2q9bu2u.cloudfront.net/stories/7658/cover_thumbnail/size1/Sun_Apr_06_2025_14_14_14_GMT_0530_%28India_Standard_Time%29.webp?1743929054" alt="Image 5">
+<img src="https://djuc8g2q9bu2u.cloudfront.net/stories/7337/cover_thumbnail/size1/Wed_Oct_02_2024_17_40_22_GMT_0530_%28India_Standard_Time%29.webp?1727871022" alt="Image 6">
+<img src="https://djuc8g2q9bu2u.cloudfront.net/stories/7326/cover_thumbnail/size1/Sun_Sep_29_2024_16_42_41_GMT_0530_%28India_Standard_Time%29.webp?1727608362" alt="Image 7">
+<img src="https://djuc8g2q9bu2u.cloudfront.net/stories/7323/cover_thumbnail/size1/Sun_Sep_29_2024_15_08_59_GMT_0530_%28India_Standard_Time%29.webp?1727602739" alt="Image 8">
+<img src="https://djuc8g2q9bu2u.cloudfront.net/stories/7298/cover_thumbnail/size1/page-0-1726487616.webp?1726487624" alt="Image 9">
+<img src="https://djuc8g2q9bu2u.cloudfront.net/stories/7296/cover_thumbnail/size1/page-0-1726488001.webp?1726488006" alt="Image 10">
+<img src="https://djuc8g2q9bu2u.cloudfront.net/stories/7221/cover_thumbnail/size1/Mon_Jul_22_2024_16_08_44_GMT_0530_%28India_Standard_Time%29.webp?1721644722" alt="Image 11">
+
+	  
+	  
+	  
+	  
     </div>
   </div>
 
   <!-- Main Content -->
   <div class="container">
-    <h1>📖 Scan & Read </h1>
+    <h1>📖 Scan & Read</h1>
     <p>कहानी पढ़ने के लिए क्लिक करें!</p>
     <button onclick="openRandomURL()">Click Here</button>
     <footer>Powered by Literacy Cloud</footer>
